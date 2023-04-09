@@ -8,7 +8,7 @@ class Program
         string str = Console.ReadLine();
 
         Console.Write("Nhap ky tu: ");
-        char = Console.ReadKey().KeyChar;// phương thức ReadKey nhận vào ký tự từ phàn phím .và xử ký đối tượng kiểu char
+        char ch = Console.ReadKey().KeyChar;// phương thức ReadKey nhận vào ký tự từ phàn phím .và xử ký đối tượng kiểu char
         Console.WriteLine();
 
         int count = 0;
